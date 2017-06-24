@@ -1,0 +1,32 @@
+.content-wrap {
+  margin: 20px 0 0 0;
+}
+
+.content-article {
+  margin-bottom: 20px;
+}
+
+.content-article__header {
+  padding: 5px 0;
+}
+
+.content-article__a,
+.content-article__a:hover {
+  color: #1a0dab;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.content-article__a:focus {
+  color: #000;
+}
+
+.content-article__description {
+  color: #545454;
+  font-size: 10px;
+}
+
+.none {
+  display: none;
+}
+

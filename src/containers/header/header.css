@@ -1,0 +1,43 @@
+.header {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.menu__li,
+.menu__li_active {
+  display: inline-block;
+  line-height: 20px;
+  padding: 10px 0 10px;
+}
+
+.menu__li_active {
+  border-bottom: 2px solid #4285f4;
+}
+
+.menu__a,
+.menu__a_active {
+  cursor: pointer;
+  font-size: 11px;
+  padding: 0 8px;
+  margin: 0 8px;
+  color: #777;
+}
+
+.menu__a_active {
+  color: #4285f4;
+}
+
+.menu__a:hover,
+.menu__a:focus
+{
+  text-decoration: none;
+  color: #222;
+  outline: none;
+}
+
+.menu__a_active:hover,
+.menu__a_active:focus {
+  text-decoration: none;
+  color: #4285f4;
+  outline: none;
+}
+
